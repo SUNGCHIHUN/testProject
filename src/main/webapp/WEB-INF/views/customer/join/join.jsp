@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file="/common/setting.jsp" %>
+<%@ include file="/WEB-INF/views/common/setting.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,14 +29,14 @@
 <body>
     <div class="wrapper">
         <!-- laftbar start -->
-			<%@include file = "/common/leftbar.jsp" %>
+			<%@include file = "/WEB-INF/views/common/leftbar.jsp" %>
 		<!-- laftbar end -->
 
         <!-- Page Content  -->
         <div id="content">
 
         	<!-- header start -->
-			<%@include file = "/common/header.jsp" %>
+			<%@include file = "/WEB-INF/views/common/header.jsp" %>
 			<!-- header end -->
 			
 	        <!-- 회원가입 시작 -->
@@ -165,7 +165,7 @@
      		<hr class="featurette-divider">
      		
      		 <!-- footer start -->	
-		      <%@include file = "/common/footer.jsp" %>
+		      <%@include file = "/WEB-INF/views/common/footer.jsp" %>
 			<!-- footer end -->	
      
         </div>

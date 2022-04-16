@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ include file="/common/setting.jsp" %>
+<%@ include file="/WEB-INF/views/common/setting.jsp" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,13 +16,13 @@
 </head>
 <body>
 	<!-- 헤더 시작 -->
-	<%@include file = "/admin/common/header.jsp" %>
+	<%@include file = "/WEB-INF/views/admin/common/header.jsp" %>
 	<!-- 헤더 끝 -->
 	
 	<div class="container-fluid">
 	  <div class="row">
 	   <!-- 레프트바 시작 -->
-	   <%@include file = "/admin/common/leftbar.jsp" %>
+	   <%@include file = "/WEB-INF/views/admin/common/leftbar.jsp" %>
 	   <!-- 레프트바 끝 -->
 		
 	    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
@@ -107,7 +107,7 @@
 	        </div>
 	        <!-- 여기부터 내용 넣으면 됩니다! 끗! -->
 	        <hr class="featurette-divider">
-	        <%@include file = "/admin/common/footer.jsp" %>
+	        <%@include file = "/WEB-INF/views/admin/common/footer.jsp" %>
 	    </main>
 	    </div>
 	  </div>
