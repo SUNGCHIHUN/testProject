@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Table</title>
+<title>회원 요청 리스트</title>
 <!-- css -->
 <link rel = "stylesheet" href = "${path}/resources/css/bootstrap.min.css">
 <link rel = "stylesheet" href = "${path}/resources/css/dashboard.css">
@@ -28,7 +28,7 @@
 	    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
 	      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
 	      	<!-- 각 화면 제목 -->
-	        <h1 class="h2"><br>여기에 입력해주세요</h1>
+	        <h1 class="h2"><br>회원요청 리스트</h1>
 	        </div>
 	        
 	        <!-- 여기부터 내용 넣으면 됩니다! -->
@@ -60,46 +60,53 @@
 									<input type="checkbox" name="basket" id="basket" checked onclick="allCheck();">
 								</th>
 								<th class="text-center">번호</th>
-								<th class="text-center">제목</th>
-								<th class="text-center">작성자</th>
-								<th class="text-center">날짜</th>
-								<th class="text-center">조회수</th>
+								<th class="text-center">이름</th>
+								<th class="text-center">성별</th>
+								<th class="text-center">주민등록번호</th>
+								<th class="text-center">연락처</th>
+								<th class="text-center">주소</th>
+								<th class="text-center">이메일</th>
+								<th class="text-center">가입요청일</th>
+								<th class="text-center">관리</th>
 							</tr>
-							
 							<tr>
 								<td align="center">
 									<input type = "checkbox" id="checkbox" name="checkbox" checked>
 								</td>
 								<td align="center">1</td>
-								<td align="center"><a href="#">제목1</a></td>
-								<td align="center">작성자1</td>
-								<td align="center">2022-04-17</td>
-								<td align="center">0</td>
+								<td align="center"><a href="#">이정재</a></td>
+								<td align="center">남</td>
+								<td align="center">721215-1xxxxxx</td>
+								<td align="center">010-1234-1234</td>
+								<td align="center">서울특별시 가산동</td>
+								<td align="center">ljj123@naver.com</td>
+								<td align="center">2022-03-17</td>
+								<td align="center">
+									<input type="button" name="confirm" value="승인" class="btn btn-success">
+								</td>
 							</tr>
 							<tr>
 								<td align="center">
 									<input type = "checkbox" id="checkbox" name="checkbox" checked>
 								</td>
 								<td align="center">2</td>
-								<td align="center"><a href="#">제목2</a></td>
-								<td align="center">작성자2</td>
-								<td align="center">2022-04-17</td>
-								<td align="center">0</td>
+								<td align="center"><a href="#">정호연</a></td>
+								<td align="center">여</td>
+								<td align="center">940623-2xxxxxx</td>
+								<td align="center">010-5678-5678</td>
+								<td align="center">서울특별시 오류동</td>
+								<td align="center">jhy123@gmail.com</td>
+								<td align="center">2022-01-05</td>
+								<td align="center">-</td>
 							</tr>
-							
 							<tr>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td align="center">
-							    <a href="#">[이전]</a>
+								<td align="center" colspan="11">
+							    	<a href="#">[이전]</a>
 								
-								<a href= "#">number</a>
+									<a href= "#">number</a>
 								
-								<a href="#">[다음]</a>
+									<a href="#">[다음]</a>
 								</td>
-								<td></td>
-								<td></td>
 		    			  </tr>
 					</table>
 				</div>

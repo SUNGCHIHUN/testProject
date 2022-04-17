@@ -17,7 +17,7 @@ public class CommonController {
 	public String main(HttpServletRequest req, Model model) {
 		logger.info("[url ==> main]C_con");
 		
-		return "common/main";
+		return "/common/main";
 	}
 	
 	@RequestMapping("login")

@@ -13,7 +13,6 @@
       	  <li class="nav-item">
             <a class="nav-link" href="#">
               <span data-feather="file"></span>
-              
             </a>
           </li>
           <li class="nav-item">
@@ -61,6 +60,5 @@
         </ul>
       </div>
     </nav>
-
 </body>
 </html>
